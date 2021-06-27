@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19122" started-at="2021-06-27T11:02:20 EDT" finished-at="2021-06-27T11:02:39 EDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="19122" started-at="2021-06-27T11:02:20 EDT" finished-at="2021-06-27T11:02:39 EDT">
+      <class name="testcases.T01_HomepageValidation">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testcases.T01_HomepageValidation@48503868]" name="openBrowser" is-config="true" duration-ms="3609" started-at="2021-06-27T11:02:20 EDT" finished-at="2021-06-27T11:02:23 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="homepageValidation()[pri:0, instance:testcases.T01_HomepageValidation@48503868]" name="homepageValidation" duration-ms="2137" started-at="2021-06-27T11:02:23 EDT" finished-at="2021-06-27T11:02:25 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepageValidation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.T01_HomepageValidation@48503868]" name="tearDown" is-config="true" duration-ms="4148" started-at="2021-06-27T11:02:25 EDT" finished-at="2021-06-27T11:02:29 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.T01_HomepageValidation -->
+      <class name="testcases.T02_LoginpageValidation">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:testcases.T02_LoginpageValidation@6895a785]" name="openBrowser" is-config="true" duration-ms="2107" started-at="2021-06-27T11:02:29 EDT" finished-at="2021-06-27T11:02:32 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="loginpage()[pri:0, instance:testcases.T02_LoginpageValidation@6895a785]" name="loginpage" duration-ms="6143" started-at="2021-06-27T11:02:32 EDT" finished-at="2021-06-27T11:02:38 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.T02_LoginpageValidation@6895a785]" name="tearDown" is-config="true" duration-ms="913" started-at="2021-06-27T11:02:38 EDT" finished-at="2021-06-27T11:02:39 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.T02_LoginpageValidation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
